@@ -25,7 +25,10 @@ SECRET_KEY = '***REMOVED***'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '192.168.0.20',
+    'ais.decodifier.uk.to'
+]
 
 
 # Application definition
